@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "home": "Chiefs",
+      "away": "Chargers",
+      "gameId": 1
+    },
+    {
+      "home": "Packers",
+      "away": "Vikings",
+      "gameId": 2
+    },
+    {
+      "home": "49ers",
+      "away": "Seahawks",
+      "gameId": 3
+    },
+    {
+      "home": "Bengals",
+      "away": "Cardinals",
+      "gameId": 4
+    },
+    {
+      "home": "Browns",
+      "away": "Jets",
+      "gameId": 5
+    }
+  ],
+  "date": "Dec. 17, 2015"
+}

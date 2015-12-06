@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "home": "Cavaliers",
+      "away": "76ers",
+      "gameId": 1
+    },
+    {
+      "home": "Celtics",
+      "away": "Nets",
+      "gameId": 2
+    },
+    {
+      "home": "Suns",
+      "away": "Rocket",
+      "gameId": 3
+    },
+    {
+      "home": "Spurs",
+      "away": "Lakers",
+      "gameId": 4
+    },
+    {
+      "home": "Bulls",
+      "away": "Warriors",
+      "gameId": 5
+    }
+  ],
+  "date": "Dec. 17, 2015"
+}

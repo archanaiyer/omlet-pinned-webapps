@@ -1,0 +1,12 @@
+{
+  "home": "Cavaliers",
+  "away": "76ers",
+  "gameId": 1,
+  "homeScore": 78,
+  "awayScore": 75,
+  "quarter": 3,
+  "remainTime": "08:14",
+  "date": "Dec. 17, 2015",
+  "isOver": false,
+  "hasStart": true
+}

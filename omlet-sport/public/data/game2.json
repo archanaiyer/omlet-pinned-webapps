@@ -1,0 +1,12 @@
+{
+  "home": "Celtics",
+  "away": "Nets",
+  "gameId": 2,
+  "homeScore": 99,
+  "awayScore": 85,
+  "quarter": 4,
+  "remainTime": "00:00",
+  "date": "Dec. 17, 2015",
+  "isOver": true,
+  "hasStart": true
+}

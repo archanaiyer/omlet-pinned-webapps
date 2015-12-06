@@ -1,0 +1,193 @@
+/* Empty. Add your own CSS if you like */
+.item{
+	text-align: center;
+}
+
+.item-divider{
+	background-image: linear-gradient(to left, green, limegreen);
+    color: white;
+    margin-bottom: 0.7%;
+    margin-top: 0.7%;
+}
+
+.list-item{
+	margin: 0.2%;
+}
+
+.custom-dark{
+	background-color: black;
+}
+
+.game-home{
+	float: left;
+	margin-left: 8%;
+}
+
+.game-away{
+	float: right;
+	margin-right: 8%;
+}
+
+.scheduled-time{
+	color: gold;
+}
+
+body {
+                font-family: helvetica neue, sans-serif;
+            }
+            
+            p {
+                margin: 0;
+                padding: 0;
+            }
+            
+            /*--------------------------------------------------
+            ------MAIN CONTAINERS & WRAPPERS--------------------
+            --------------------------------------------------*/
+            
+            .scorecard-wrapper {
+                margin: 10% auto;
+                width: 300px;
+                height: 120px;
+            }
+            
+            
+            /*--------------------------------------------------
+            ------COUNTER SVG & ANIMATION-----------------------
+            --------------------------------------------------*/
+            
+/*            .time-counter {
+                stroke-dashoffset: 360;
+                stroke-dasharray: 360;
+                -webkit-animation: time 30s linear forwards;
+                -moz-animation: time 30s linear forwards;
+                animation: time 30s linear forwards;
+            }
+            
+            svg {
+                -webkit-transform: rotate(270deg);
+                -moz-transform: rotate(270deg);
+                -ms-transform: rotate(270deg);
+                -o-transform: rotate(270deg);
+                transform: rotate(270deg);
+            }
+
+            @-webkit-keyframes time {
+                to {stroke-dashoffset: 0;}
+            }
+            
+            @-moz-keyframes time {
+                to {stroke-dashoffset: 0;}
+            }
+            
+            @keyframes time {
+                to {stroke-dashoffset: 0;}
+            }*/
+            
+            /*--------------------------------------------------
+            ------TIME CIRCLE, MINUTES & SECONDS----------------
+            --------------------------------------------------*/
+            
+            .time {
+                position: relative;
+                float: left;
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                background-color: black;
+                color: white;
+                text-align: center;
+            }
+            
+            .time .min {
+                font-size: 2.3em;
+    			margin-top: -75px;
+            }
+            
+            .time .sec {
+                font-size: 1em;
+                margin-top: -6px;
+            }
+            
+            .time .min,
+            .time .sec {
+                -webkit-transform: translateZ(1px);
+                -moz-transform: translateZ(1px);
+                -ms-transform: translateZ(1px);
+                -o-transform: translateZ(1px);
+                transform: translateZ(1px);
+            }
+            
+            /*--------------------------------------------------
+            ------TEAM & SCORE CONTAINERS AND STYLES------------
+            --------------------------------------------------*/
+            
+            /*----GLOBAL TEAM AND SCORE SETTINGS--------------*/
+            .team-top, 
+            .team-bottom, 
+            .score-top, 
+            .score-bottom {
+                font-size: 1.8em;
+                display: inline;
+            }
+            
+            /*----TEAM SETTINGS-------------------------------*/
+            .team-top, 
+            .team-bottom {
+                float: left;
+                width: 80px;
+                height: 60px;
+            }
+            
+            .team-top p,
+            .team-bottom p {
+                float: right;
+                line-height: 60px;
+                margin-right: 24px;
+                letter-spacing: .1em;
+            }
+            
+            .team-top { 
+                background-color: limegreen;
+                background-image: -webkit-linear-gradient(right, green, limegreen);
+                background-image: -moz-linear-gradient(right, green, limegreen);
+                background-image: -o-linear-gradient(right, green, limegreen);
+                background-image: linear-gradient(to left, green, limegreen);
+                color: white;
+                box-shadow: -60px 0 limegreen;
+            }
+            
+            .team-bottom { 
+                background-color: white;
+                background-image: -webkit-linear-gradient(right, gainsboro, white);
+                background-image: -moz-linear-gradient(right, gainsboro, white);
+                background-image: -o-linear-gradient(right, gainsboro, white);
+                background-image: linear-gradient(to left, gainsboro, white);
+                color: black;
+                box-shadow: -60px 0 white;
+            }
+        
+            /*----SCORE SETTINGS-------------------------------*/
+            .score-top, 
+            .score-bottom {
+                float: left;
+                width: 60px;
+                height: 60px;
+                color: white;
+                background-color: black;
+                box-sizing: border-box;
+            }
+            
+            .score-top p,
+            .score-bottom p {
+                text-align: center;
+                line-height: 60px;   
+            }
+            
+            .score-top {
+                border-bottom: 0.5px solid whitesmoke;
+            }
+            
+            .score-bottom {
+                border-top: 0.5px solid whitesmoke;
+            }

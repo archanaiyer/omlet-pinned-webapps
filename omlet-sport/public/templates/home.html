@@ -1,0 +1,25 @@
+<ion-view title="UPCOMING GAMES" class="custom-dark">
+
+    <ion-content has-header="true" padding="true">
+
+        <div class="list-card">
+            <span id="debug"></span>
+            <!-- NFL -->
+            <div class="item item-divider">
+                NFL 
+            </div>
+
+            <a class="item list-item" ui-sref="game({gameId: game.id})" ng-repeat="game in nfl">
+                <div class="game-home">{{game.home.alias}}</div><div class="game-away">{{game.away.alias}}</div>  
+            </a>
+
+            <!--if there is no nfl game today-->
+            <div ng-if="nfl.length == 0">
+                <a class="item" href="">
+                    No upcoming games
+                </a>
+            </div>
+
+        </div>
+    </ion-content>
+</ion-view>
