@@ -1,6 +1,14 @@
-Omlet Sport Pinned App
+#Omlet Sport Pinned App
 
-1. git clone https://github.com/aaqibhabib/omlet-sport.git
+This is a webapp which has express.js on the backend and angular with ionic components on the front end. The API being used for live score updates is the SportsRadar API http://developer.sportradar.us/
+
+It has been developed for the Omlet pinned app API and uses group information to ensure that all users in the same group see the same score.
+
+If someone from the group opens the "Sports app" for the first time, it will take them to a list of the next 16 upcoming games from which the team member can select a game to view information on. 
+If someone from the group has previously opened the "Sports app" and viewed the score", everyone on the group views the same score. 
+
+Steps for setup: 
+1. git clone https://github.com/archanaiyer/omlet-pinned-webapps.git
 2. cd omlet-sport
 3. npm install
 4. node start
@@ -8,7 +16,7 @@ Omlet Sport Pinned App
 
 # API Documentation
 
-## Resquest
+## Request
 ###GET /api/games/
 ## Response
 Returns the next 16 games scheduled to be played from todays date. This will return at most 1 weeks worth of games.
