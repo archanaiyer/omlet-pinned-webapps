@@ -1,5 +1,4 @@
 var apiKey = "";
-var mapUrl = "https://maps.googleapis.com/maps/api/js?key=" + apiKey;
 //global map object
 var map = {};
 
@@ -37,7 +36,7 @@ var init = true;
 $.getScript("https://www.google.com/jsapi", function(data, textStatus, jqXHR){
 	if (jqXHR.status == 200) {
 		console.log("init map");
-		google.load('maps', '3', { other_params: 'key=AIzaSyBcXmdCcC6w1sMcyoFfXT5fSZOLulLiCow', 
+		google.load('maps', '3', { other_params: 'key=' + apiKey, 
 			callback: function() {
 		        map = new google.maps.Map(document.getElementById('map'), {
 				zoom:20
